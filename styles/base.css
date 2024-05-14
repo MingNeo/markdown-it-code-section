@@ -1,0 +1,62 @@
+:root {
+  --md-code-section-text: #c9d1d9;
+  --md-code-section-bg: #0d1117;
+  --md-code-section-title: var(--md-code-section-text);
+}
+
+.md-code-section__container {
+  color: #c9d1d9;
+  background: #0d1117;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  line-height: 1.75;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--md-code-section-border);
+  border-radius: 0.5rem;
+  color: var(--md-code-section-text);
+  background-color: var(--md-code-section-bg);
+}
+
+.md-code-section__container pre {
+  display: flex;
+  overflow-x: auto;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.md-code-section__container>pre {
+  margin: 0 !important;
+}
+
+.md-code-section__languagebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px;
+  color: var(--md-code-section-title);
+}
+
+.md-code-section__copy {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.md-code-section__copy .md-code-section__copy-success {
+  display: none;
+}
+
+.md-code-section__copy.success>svg {
+  display: none;
+}
+
+.md-code-section__copy.success .md-code-section__copy-success {
+  display: block;
+}
+
+.md-code-section__container code {
+  flex: 1;
+}
