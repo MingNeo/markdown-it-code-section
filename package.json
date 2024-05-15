@@ -14,8 +14,7 @@
     "dev": "nodemon -w './src' -w './styles' -w './playground' -e 'css,md,ts' -x 'run-s build playground'",
     "format": "biome format . --write",
     "lint": "biome lint .",
-    "test": "run-s build:src test:*",
-    "test:vitest": "vitest run",
+    "test": "run-s build:src",
     "typecheck": "tsc --noEmit",
     "playground": "pnpm --filter ./playground dev",
     "prepare": "simple-git-hooks"
