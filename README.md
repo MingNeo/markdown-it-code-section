@@ -27,7 +27,28 @@ mdCodeSection.setLanguage({
 const html = md.render(/* ... */);
 ```
 
-## Style
+### Load languages
+See [prismjs](https://prismjs.com/)
+
+```javascript
+import loadLanguages from 'prismjs/components/index';
+
+loadLanguages([
+  'python',
+  'typescript',
+  'css',
+  'javascript',
+  'html',
+  'jsx',
+  'java',
+  'php',
+  'ruby',
+  'c',
+  'objectivec',
+  'xml',
+]);
+```
+### Style
 ```js
 import 'prismjs/themes/prism-dark.min.css'
 ```

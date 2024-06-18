@@ -1,5 +1,6 @@
 import type MarkdownIt from "markdown-it";
 import Prism from "prismjs";
+import "prismjs/themes/prism-tomorrow.css";
 import "./styles/base.css";
 
 interface Options extends MarkdownIt.Options {
