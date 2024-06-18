@@ -15,6 +15,8 @@ npm install markdown-it-code-section
 ```js
 import markdownIt from 'markdown-it';
 import mdCodeSection from 'markdown-it-code-section';
+import 'markdown-it-code-section/dist/styles.css';
+import 'prismjs/themes/prism-dark.min.css';
 
 const md = markdownIt();
 md.use(mdCodeSection);
@@ -41,6 +43,7 @@ loadLanguages([
 ```
 ### Style
 ```js
+import 'markdown-it-code-section/dist/styles.css';
 import 'prismjs/themes/prism-dark.min.css'
 ```
 
