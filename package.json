@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-code-section",
   "description": "Code plugin for markdown-it",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "MingNeo <https://github.com/mingneo>",
   "scripts": {
